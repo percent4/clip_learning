@@ -1,3 +1,4 @@
+The project is for OpenAI CLIP model learning, with diverse demo and test.
 
 ### Zero Shot Image Classification
 
@@ -54,3 +55,34 @@ weighted avg     0.9543    0.9531    0.9531     10000
    macro avg     0.8941    0.8880    0.8877     10000
 weighted avg     0.8941    0.8880    0.8877     10000
 ```
+
+### Linear Probe
+
+#### CIFAR-10  experiment
+
+- clip-vit-large-patch14
+
+```
+              precision    recall  f1-score   support
+
+    airplane     0.9631    0.9660    0.9646      1000
+  automobile     0.9750    0.9760    0.9755      1000
+        bird     0.9412    0.9280    0.9345      1000
+         cat     0.8924    0.9040    0.8982      1000
+        deer     0.9266    0.9340    0.9303      1000
+         dog     0.9291    0.9170    0.9230      1000
+        frog     0.9467    0.9600    0.9533      1000
+       horse     0.9757    0.9630    0.9693      1000
+        ship     0.9770    0.9780    0.9775      1000
+       truck     0.9750    0.9750    0.9750      1000
+
+    accuracy                         0.9501     10000
+   macro avg     0.9502    0.9501    0.9501     10000
+weighted avg     0.9502    0.9501    0.9501     10000
+```
+
+### Reference
+
+1. [CLIP：多模态领域革命者](https://bbs.huaweicloud.com/blogs/371319)
+2. [CLIP in Hugging Face](https://huggingface.co/docs/transformers/model_doc/clip)
+3. [OpenAI Clip](https://openai.com/research/clip)
