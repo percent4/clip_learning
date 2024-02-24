@@ -44,7 +44,7 @@ if __name__ == '__main__':
         with gr.Row():
             with gr.Column():
                 image_urls = gr.TextArea(lines=1, placeholder="Enter image urls", label="Images")
-                prompt = gr.TextArea(lines=3, placeholder="Enter image urls", label="Images")
+                prompt = gr.TextArea(lines=3, placeholder="Enter labels, separated by comma", label="Labels")
             with gr.Column():
                 search_image = gr.Image(type='pil')
                 plot = gr.BarPlot()

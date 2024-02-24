@@ -58,7 +58,7 @@ weighted avg     0.8941    0.8880    0.8877     10000
 
 ### Linear Probe
 
-#### CIFAR-10  experiment
+#### CIFAR-10
 
 - clip-vit-large-patch14
 
